@@ -24,4 +24,4 @@ const alumnosData = [
 { "matricula": "20230023", "nombre": "Valeria Castro", "calificacion": 10 },
 { "matricula": "20230024", "nombre": "Sergio Rivas", "calificacion": 4 },
 { "matricula": "20230025", "nombre": "Andrea Navarro", "calificacion": 8 }
-]
+] // Hola

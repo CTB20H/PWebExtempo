@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de alumnos y multiplicaciones</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <section class="alumnosContainer">
+            <h1>Lista de alumnos</h1>
+            <div class="alumnosBtns">
+                <button id="btnMostrarLista" class="btn">Mostrar Lista</button>
+                <button id="btnLimpiarLista" class="btn">Limpiar Lista</button>
+            </div>
+            <div id="listaAlumnos" class="hidden">
+            <h2 class="subLista">Lista de Alumnos</h2>
+            <table class="tblAlumnos">
+                <thead>
+                    <tr>
+                        <th>Matrícula</th>
+                        <th>Nombre</th>
+                        <th>Calificación</th>
+                    </tr>
+                </thead>
+                <tbody id="tblAlumnosBody">
+                    </tbody>
+            </table>
+            <div class="resultados">
+                <p><strong>Promedio Grupal:</strong> <span id="promedioGrupal">0.00</span></p>
+                <p><strong>Número de Aprobados:</strong> <span id="numAprobados">0</span></p>
+                <p><strong>Número de Reprobados:</strong> <span id="numReprobados">0</span></p>
+            </div>
+        </div>
+        <div class="multiBtns">
+            <button id="btnCalcular" class="btn">Calcular</button>
+            <button id="btnLimpiar" class="btn">Limpiar</button>
+        </div>
+        <div class="resultadoContainer">
+            <h3>Resultado:</h3>
+            <div id="Multiplicacion" class="resultados"></div>
+        </div>
+        </section>
+        <script src="js/index.js"></script>
+    </body>
+</html>
